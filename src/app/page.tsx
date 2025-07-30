@@ -281,7 +281,7 @@ export default async function Home() {
             I’m Mohammad Akhter, a Senior UX Designer with 14+ years of experience leading<br/> human-centered design in the public sector, insurance, utilities, and energy industries.<br/> I bring strategy, accessibility, and scalable systems together to create inclusive,<br/> high-impact digital experiences
           </p>
           <div className="mt-6 flex gap-6">
-            <SocialLink href="#" aria-label="Follow on X" icon={XIcon} />
+            {/* <SocialLink href="#" aria-label="Follow on X" icon={XIcon} />
             <SocialLink
               href="#"
               aria-label="Follow on Instagram"
@@ -291,9 +291,10 @@ export default async function Home() {
               href="#"
               aria-label="Follow on GitHub"
               icon={GitHubIcon}
-            />
+            /> */}
             <SocialLink
-              href="#"
+              href="https://www.linkedin.com/in/mohammad-akhter-713b84101/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+              target="_blank"
               aria-label="Follow on LinkedIn"
               icon={LinkedInIcon}
             />
@@ -309,7 +310,7 @@ export default async function Home() {
             ))}
           </div>
           <div className="space-y-10 lg:pl-16 xl:pl-24">
-            <Newsletter />
+            {/* <Newsletter /> */}
             <Resume />
           </div>
         </div>
