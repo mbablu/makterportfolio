@@ -10,7 +10,7 @@ import {
   LinkedInIcon,
   XIcon,
 } from '@/components/SocialIcons'
-import portraitImage from '@/images/portrait.jpg'
+import portraitImage from '@/images/about.png'
 
 function SocialLink({
   className,
@@ -74,11 +74,11 @@ export default function About() {
           </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
             <p>
-              I’m Mohammad Akhter, a Senior UX Designer with over 14 years of experience transforming complex systems into intuitive, user-centered solutions. I specialize in human-centered design, service design, and accessibility-first UX, working across public sector and enterprise environments to deliver end-to-end digital transformation.
+              I’m Mohammad Akhter, a Senior UX/Product Designer and UX Strategist with over 14 years of experience crafting intuitive, accessible, and data-driven digital experiences. I specialize in human-centered design, service design thinking, and the strategic use of AI and no-code tools to accelerate the design process while ensuring quality and user alignment. From public sector innovations like DERMS in Ontario to insurance and utility solutions across North America, I’ve led design efforts that streamline complex systems, reduce operational friction, and empower users to do their best work. My mission is to deliver design that’s not only elegant — but transformative.
             </p>
-            <p>
+            {/* <p>
               My approach blends research-driven insights with collaborative problem-solving, aligning user needs with business goals to deliver measurable outcomes. Whether I’m mapping a journey, building a component library, or running design sprints within a SAFe Agile framework—I work to ensure the solution is inclusive, scalable, and user-validated. 
-            </p>
+            </p> */}
             {/* <p>
               I spent the next few summers indoors working on a rocket design,
               while I recovered from the multiple surgeries it took to fix my
@@ -98,6 +98,14 @@ export default function About() {
               <li>Agile design systems and scalable UI patterns </li>
               <li>Prototyping and testing in complex data-heavy environments </li>
               <li>Service and interaction design for large public-facing applications </li>
+              <li>Human-centered design (HCD) & service design thinking</li>
+              <li>Scalable design systems & component libraries</li>
+              <li>AI-enhanced UX tools (UX Pilot, Figma AI, Visily)</li>
+              <li>No-code prototyping to accelerate user feedback loops </li>
+              <li>Accessibility (WCAG) and inclusive digital practices</li>
+              <li>Cross-functional Agile delivery (SAFe, Scrum, Kanban)</li>
+              <li>Research, journey maps, user flows, and data visualizations</li>
+              <li>Tools: Figma, Adobe XD, Axure, UXPin, Mural, Smaply</li>
             </ul>
           </div>
         </div>
@@ -112,15 +120,15 @@ export default function About() {
             <SocialLink href="#" icon={GitHubIcon} className="mt-4">
               Follow on GitHub
             </SocialLink> */}
-            <SocialLink href="#" icon={LinkedInIcon} className="mt-4">
+            <SocialLink href="https://www.linkedin.com/in/mohammad-akhter-713b84101?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" icon={LinkedInIcon} className="mt-4">
               Follow on LinkedIn
             </SocialLink>
             <SocialLink
-              href="mailto:spencer@planetaria.tech"
+              href="makhter.designer@gmail.com"
               icon={MailIcon}
               className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
             >
-              spencer@planetaria.tech
+              makhter.designer@gmail.com
             </SocialLink>
           </ul>
         </div>

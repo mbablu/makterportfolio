@@ -11,10 +11,10 @@ import {
   LinkedInIcon,
   XIcon,
 } from '@/components/SocialIcons'
-import logoAirbnb from '@/images/logos/airbnb.svg'
-import logoFacebook from '@/images/logos/facebook.svg'
-import logoPlanetaria from '@/images/logos/planetaria.svg'
-import logoStarbucks from '@/images/logos/starbucks.svg'
+import logoAirbnb from '@/images/logos/TekSystems@2x.png'
+import logoFacebook from '@/images/logos/ITConquest@2x.png'
+import logoPlanetaria from '@/images/logos/Survalent@2x.png'
+import logoStarbucks from '@/images/logos/Bell@2x.png'
 import image1 from '@/images/photos/image-1.jpg'
 import image2 from '@/images/photos/image-2.jpg'
 import image3 from '@/images/photos/image-3.jpg'
@@ -189,35 +189,35 @@ function Role({ role }: { role: Role }) {
 function Resume() {
   let resume: Array<Role> = [
     {
-      company: 'Planetaria',
-      title: 'CEO',
+      company: 'Survalent',
+      title: 'Senior UX/UI Designer',
       logo: logoPlanetaria,
-      start: '2019',
+      start: '2020',
       end: {
         label: 'Present',
         dateTime: new Date().getFullYear().toString(),
       },
     },
     {
-      company: 'Airbnb',
-      title: 'Product Designer',
+      company: 'TekSystems',
+      title: 'Senior User Experience Designer',
       logo: logoAirbnb,
-      start: '2014',
-      end: '2019',
+      start: '2012',
+      end: '2020',
     },
     {
-      company: 'Facebook',
-      title: 'iOS Software Engineer',
+      company: 'IT Conquest',
+      title: 'User Experience Architect',
       logo: logoFacebook,
-      start: '2011',
-      end: '2014',
+      start: '2008',
+      end: '2013',
     },
     {
-      company: 'Starbucks',
-      title: 'Shift Supervisor',
+      company: 'Bell Technical Solution',
+      title: 'System Analyst',
       logo: logoStarbucks,
-      start: '2008',
-      end: '2011',
+      start: '2005',
+      end: '2008',
     },
   ]
 
