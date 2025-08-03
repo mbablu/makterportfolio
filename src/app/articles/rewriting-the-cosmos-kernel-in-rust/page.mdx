@@ -12,90 +12,104 @@ export const metadata = {
   title: article.title,
   description: article.description,
 }
-
 export default (props) => <ArticleLayout article={article} {...props} />
 
-When we released the first version of cosmOS last year, it was written in Go. Go is a wonderful programming language with a lot of benefits, but it’s been a while since I’ve seen an article on the front page of Hacker News about rewriting some important tool in Go and I see articles on there about rewriting things in Rust every single week.
+#Client: Multiple (including IESO, Internal Product Teams) 
 
-```rust
-use ferris_says::say;
-use std::io::{stdout, BufWriter};
+#Role: UX/UI Designer & Accessibility Advocate 
 
-fn main() {
-    let stdout = stdout();
-    let message = String::from("Hello fellow hackers");
-    let width = message.chars().count();
+#Duration: Ongoing (2016 – Present) 
 
-    let mut writer = BufWriter::new(stdout.lock());
-    say(message.as_bytes(), width, &mut writer).unwrap();
-}
-```
+###Context 
 
-I derive a large amount of my self-worth from whether or not Hacker News is impressed with the work I'm doing, so when I realized this, I cancelled all of our existing projects and started migrating everything to Rust immediately.
+In large-scale, multi-stakeholder environments — especially across public and regulated industries — consistency, scalability, and accessibility are not just design preferences, they’re non-negotiable standards. 
 
-## Sermone fata
+As part of multiple transformation programs, I played a key role in contributing to and maintaining centralized Design Systems that enforced UX/UI consistency and WCAG-compliant accessibility across product portfolios. 
 
-Lorem markdownum, bracchia in redibam! Terque unda puppi nec, linguae posterior
-in utraque respicere candidus Mimasque formae; quae conantem cervice. Parcite
-variatus, redolentia adeunt. Tyrioque dies, naufraga sua adit partibus celanda
-torquere temptata, erit maneat et ramos, [iam](#) ait dominari
-potitus! Tibi litora matremque fumantia condi radicibus opusque.
+###Challenges 
 
-Deus feram verumque, fecit, ira tamen, terras per alienae victum. Mutantur
-levitate quas ubi arcum ripas oculos abest. Adest [commissaque
-victae](#) in gemitus nectareis ire diva
-dotibus ora, et findi huic invenit; fatis? Fractaque dare superinposita
-nimiumque simulatoremque sanguine, at voce aestibus diu! Quid veterum hausit tu
-nil utinam paternos ima, commentaque.
+Lack of consistent component usage across product teams
 
-```c
-exbibyte_wins = gigahertz(3);
-grayscaleUtilityClient = control_uat;
-pcmciaHibernate = oop_virus_console(text_mountain);
-if (stateWaisFirewire >= -2) {
-    jfs = 647065 / ldapVrml(tutorialRestore, 85);
-    metal_runtime_parse = roomComputingResolution - toolbarUpload +
-            ipx_nvram_open;
-} else {
-    maximizeSidebar *= suffix_url(flatbed + 2, requirements_encoding_node +
-            only_qbe_media, minicomputer);
-}
-```
+Accessibility violations and retroactive compliance efforts 
 
-Aere repetiti cognataque natus. Habebat vela solutis saepe munus nondum adhuc
-oscula nomina pignora corpus deserat.
+Multiple teams using ad hoc styling, fragmenting the 
 
-## Lethaei Pindumve me quae dinumerat Pavor
+UX Delays in dev handoff due to missing design specs and states 
 
-Idem se saxa fata pollentibus geminos; quos pedibus. Est urnis Herses omnes nec
-divite: et ille illa furit sim verbis Cyllenius.
+###Goals 
 
-1. Captus inpleverunt collo
-2. Nec nam placebant
-3. Siquos vulgus
-4. Dictis carissime fugae
-5. A tacitos nulla viginti
+Create a unified, reusable component system to reduce design/development duplication 
 
-Ungues fistula annoso, ille addit linoque motatque uberior verso
-[rubuerunt](#) confine desuetaque. _Sanguine_ anteit
-emerguntque expugnacior est pennas iniqui ecce **haeret** genus: peiora imagine
-fossas Cephisos formosa! Refugitque amata [refelli](#)
-supplex. Summa brevis vetuere tenebas, hostes vetantis, suppressit, arreptum
-regna. Postquam conpescit iuvenis habet corpus, et erratica, perdere, tot mota
-ars talis.
+Embed accessibility into the design process—not treat it as a post-launch fix 
 
-```c
-digital.webcam_dual_frequency = webmasterMms;
-if (5 + language_standalone_google) {
-    cc_inbox_layout *= file_character;
-    task += p;
-    lockUnicode += enterprise_monochrome(tokenFunctionPersonal, keyVirtual,
-            adf);
-}
-windows_binary_esports(87734, array(restoreRomTopology, adRaw(407314),
-        dongleBashThumbnail), interpreter);
-```
+Improve cross-team collaboration and governance on design decisions 
 
-Sit volat naturam; motu Cancri. Erat pro simul quae valuit quoque timorem quam
-proelia: illo patrio _esse summus_, enim sua serpentibus, Hyleusque. Est coniuge
-recuso; refert Coroniden ignotos manat, adfectu.
+Reduce friction between design, product, and engineering teams 
+
+###My Process 
+
+Audit & Gap Analysis 
+
+Conducted an audit of existing UI components across different teams (State Farm + IESO) 
+
+Mapped inconsistent elements and documented accessibility violations (e.g., poor contrast, missing labels) 
+
+Reviewed screen reader compatibility for key flows 
+
+Component Creation & Governance 
+
+Designed accessible UI components in Figma, Sketch, and Adobe XD
+
+Collaborated with front-end developers to translate designs into coded components 
+
+Proposed new component additions to the central design system and got buy-in from core design teams 
+
+Documentation & Handoff 
+
+Created spec-ready documentation: spacing, states, interactions, accessibility notes (ARIA labels, tab order, contrast ratios) 
+
+Provided annotated redlines and tokens to dev teams to reduce handoff ambiguity 
+
+Training & Advocacy 
+
+Led working sessions with product owners and devs to explain how to adopt and maintain accessibility best practices 
+
+Participated in accessibility audits and retroactive fixes on legacy systems 
+
+Promoted the use of inclusive language, accessible forms, and voice interaction patterns 
+
+###Impact 
+
+Unified multiple product teams under a single design language 
+
+Reduced design inconsistencies by over 60% across platforms 
+
+Eliminated redundant design effort by standardizing 30+ core components 
+
+Increased WCAG compliance coverage from partial to near-full across multiple platforms 
+
+Reduced dev handoff issues and rework due to complete, standardized specs Shape 
+
+###Tools & Standards Design Tools: Figma, Sketch, Adobe XD, Illustrator 
+
+Code & Handoff: Zeplin, Storybook, React libraries 
+
+Accessibility: WCAG 2.1, WAI-ARIA, Screen Reader Testing (NVDA/VoiceOver), Contrast Checkers 
+
+Collaboration: Jira, Confluence, Miro 
+
+###Learnings & Reflections 
+
+Creating and maintaining a scalable, accessible design system isn’t just about UI — it’s about culture, governance, and education. 
+
+This initiative taught me how to: 
+
+Be a translator between visual design and semantic code 
+
+Integrate accessibility from day one rather than as a compliance patch 
+
+Build alignment across silos by proving the value of systems thinking with real efficiency gains 
+
+Design not only for aesthetics but for everyone, regardless of ability
+
+
