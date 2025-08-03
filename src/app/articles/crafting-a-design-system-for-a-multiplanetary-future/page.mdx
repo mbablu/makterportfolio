@@ -16,75 +16,113 @@ export const metadata = {
 
 export default (props) => <ArticleLayout article={article} {...props} />
 
-Most companies try to stay ahead of the curve when it comes to visual design, but for Planetaria we needed to create a brand that would still inspire us 100 years from now when humanity has spread across our entire solar system.
+# Client: Confidential
+# Role: UX Lead / Conversational Interface Designer
+# Duration: [Add Duration]
 
-<Image src={designSystem} alt="" />
+## Context
 
-I knew that to get it right I was going to have to replicate the viewing conditions of someone from the future, so I grabbed my space helmet from the closet, created a new Figma document, and got to work.
+ In this forward-looking initiative, the goal was to build an advanced AI-powered system using ChatGPT and complementary AI technologies to bridge the gap between complex technical manuals, unstructured datasets, and everyday user inquiries.
 
-## Sermone fata
+ The result: a powerful chatbot that could not only answer questions contextually but also visualize insights using map-based and graphical dashboards — all accessible via natural voice conversation.
 
-Lorem markdownum, bracchia in redibam! Terque unda puppi nec, linguae posterior
-in utraque respicere candidus Mimasque formae; quae conantem cervice. Parcite
-variatus, redolentia adeunt. Tyrioque dies, naufraga sua adit partibus celanda
-torquere temptata, erit maneat et ramos, [iam](#) ait dominari
-potitus! Tibi litora matremque fumantia condi radicibus opusque.
+ ## Challenge
 
-Deus feram verumque, fecit, ira tamen, terras per alienae victum. Mutantur
-levitate quas ubi arcum ripas oculos abest. Adest [commissaque
-victae](#) in gemitus nectareis ire diva
-dotibus ora, et findi huic invenit; fatis? Fractaque dare superinposita
-nimiumque simulatoremque sanguine, at voce aestibus diu! Quid veterum hausit tu
-nil utinam paternos ima, commentaque.
+Organizations often sit on massive volumes of documentation — PDFs, product manuals, internal knowledge bases — that are poorly indexed, fragmented, and difficult to access or interpret by non-technical users. 
 
-```c
-exbibyte_wins = gigahertz(3);
-grayscaleUtilityClient = control_uat;
-pcmciaHibernate = oop_virus_console(text_mountain);
-if (stateWaisFirewire >= -2) {
-    jfs = 647065 / ldapVrml(tutorialRestore, 85);
-    metal_runtime_parse = roomComputingResolution - toolbarUpload +
-            ipx_nvram_open;
-} else {
-    maximizeSidebar *= suffix_url(flatbed + 2, requirements_encoding_node +
-            only_qbe_media, minicomputer);
-}
-```
+The challenge was multi-fold: 
 
-Aere repetiti cognataque natus. Habebat vela solutis saepe munus nondum adhuc
-oscula nomina pignora corpus deserat.
+Transform unstructured data into vectorized form that a machine learning model could “understand”
 
-## Lethaei Pindumve me quae dinumerat Pavor
+Design an intuitive chat experience that could serve a wide range of users, from technical specialists to the general public
 
-Idem se saxa fata pollentibus geminos; quos pedibus. Est urnis Herses omnes nec
-divite: et ille illa furit sim verbis Cyllenius.
+Visualize high-volume data dynamically in dashboards 
 
-1. Captus inpleverunt collo
-2. Nec nam placebant
-3. Siquos vulgus
-4. Dictis carissime fugae
-5. A tacitos nulla viginti
+Enable voice interactions for hands-free, guided decision-making
 
-Ungues fistula annoso, ille addit linoque motatque uberior verso
-[rubuerunt](#) confine desuetaque. _Sanguine_ anteit
-emerguntque expugnacior est pennas iniqui ecce **haeret** genus: peiora imagine
-fossas Cephisos formosa! Refugitque amata [refelli](#)
-supplex. Summa brevis vetuere tenebas, hostes vetantis, suppressit, arreptum
-regna. Postquam conpescit iuvenis habet corpus, et erratica, perdere, tot mota
-ars talis.
+## Goals
 
-```c
-digital.webcam_dual_frequency = webmasterMms;
-if (5 + language_standalone_google) {
-    cc_inbox_layout *= file_character;
-    task += p;
-    lockUnicode += enterprise_monochrome(tokenFunctionPersonal, keyVirtual,
-            adf);
-}
-windows_binary_esports(87734, array(restoreRomTopology, adRaw(407314),
-        dongleBashThumbnail), interpreter);
-```
+Build an AI chatbot capable of intelligent, human-like conversations 
 
-Sit volat naturam; motu Cancri. Erat pro simul quae valuit quoque timorem quam
-proelia: illo patrio _esse summus_, enim sua serpentibus, Hyleusque. Est coniuge
-recuso; refert Coroniden ignotos manat, adfectu.
+Extract knowledge from structured/unstructured data using vectorization 
+
+Create a seamless experience between chat and data dashboards (e.g. maps, charts) 
+
+Enable voice-to-action interaction for task completion Shape
+
+## My Process
+
+AI + UX Discovery 
+
+Collaborated with AI engineers to define how data would be ingested and transformed into vectorized knowledge bases
+
+Conducted stakeholder workshops to understand common user intents, tasks, and pain points across different personas
+
+Conversational UX & System Architecture 
+
+Designed natural, human-like flows for different types of users (novice, expert, support staff) 
+
+Created conversation maps, intent models, and fallback scenarios for handling ambiguity 
+
+Integrated tools like Whisper (for voice input), OpenAI APIs, and vector databases (e.g. Pinecone, Weaviate) 
+
+Prototype, Test & Iterate 
+
+Built Figma-based wireframes and interactive prototypes for both the chat interface and dashboard components 
+
+Prototyped dashboard layouts for geospatial (map-based) and statistical (graph-based) visualizations 
+
+Ran internal usability tests for: 
+
+Voice command accuracy 
+
+Clarity of chatbot responses 
+
+Ease of navigating between conversational and visual modes
+
+Multimodal Integration 
+
+Designed seamless transitions between: 
+
+Conversational chat 
+
+Data dashboards (line/bar/pie/heatmaps) 
+
+Voice-activated task completion 
+
+Worked closely with the engineering team to QA the voice UX and test for misfire commands, context awareness, and fallback paths
+
+
+##Impact
+Created a centralized AI knowledge agent trained on internal documents, manuals, and processes 
+  
+Users could query complex technical data via natural conversation — eliminating the need to search static documentation 
+
+Delivered dynamic visual dashboards that responded to voice/chat inputs 
+
+Reduced support overhead by offloading repetitive inquiries to the chatbot 
+
+Enabled voice-to-insight interaction for field agents and operators
+
+
+## Tools & technologies
+OpenAI GPT-4, LangChain, Pinecone/Weaviate (Vector DBs), Whisper
+
+Figma, Adobe XD (UI design & prototyping) Node.js, REST APIs, WebSockets (for chatbot/backend integration) 
+
+Mapbox/D3.js/Chart.js (for visualizations) 
+
+
+## Learning & Reflections
+
+This project represented a significant shift from traditional GUI design into conversational AI and multimodal user interaction. It challenged our team to: 
+  
+Reframe “UI” as voice, tone, and flow — not just screens 
+
+Design with ambiguity and user error in mind 
+
+Align UX closely with ML engineers to ensure model alignment with real-world user needs 
+
+This work expanded my design scope from human-computer interaction to human-AI collaboration, where empathy, context, and clarity are more important than ever.
+
+
