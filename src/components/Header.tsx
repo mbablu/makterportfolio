@@ -124,7 +124,7 @@ function MobileNavigation(
             <MobileNavItem href="/">Home</MobileNavItem>
             <MobileNavItem href="/articles">Case Studies</MobileNavItem>
             <MobileNavItem href="/about">About Me</MobileNavItem>
-            <MobileNavItem href="/projects">Résumé</MobileNavItem>
+            {/* <MobileNavItem href="/projects">Résumé</MobileNavItem> */}
             <MobileNavItem href="/speaking">Contact</MobileNavItem>
             {/* <MobileNavItem href="/uses">Uses</MobileNavItem> */}
           </ul>
@@ -150,8 +150,8 @@ function NavItem({
         className={clsx(
           'relative block px-3 py-2 transition whitespace-nowrap',
           isActive
-            ? 'text-teal-500 dark:text-teal-400'
-            : 'hover:text-teal-500 dark:hover:text-teal-400',
+            ? 'text-[#29aae1] dark:text-teal-400'
+            : 'hover:text-[#29aae1] dark:hover:text-teal-400',
         )}
       >
         {children}
@@ -170,7 +170,7 @@ function DesktopNavigation(props: React.ComponentPropsWithoutRef<'nav'>) {
         <NavItem href="/">Home</NavItem>
         <NavItem href="/articles">Case Studies</NavItem>
         <NavItem href="/about">About Me</NavItem>
-        <NavItem href="/projects">Résumé</NavItem>
+        {/* <NavItem href="/projects">Résumé</NavItem> */}
         <NavItem href="/speaking">Contact</NavItem>
         {/* <NavItem href="/uses">Uses</NavItem> */}
       </ul>
