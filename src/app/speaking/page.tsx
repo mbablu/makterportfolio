@@ -56,7 +56,7 @@ export default function Speaking() {
 
     <div>
       <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-        Open to "full-time or contract" roles as a UX Designer, Product Designer, or UX Strategist — hybrid in Toronto or fully remote. I bring both hands-on design skills and strategic leadership to projects that aim to improve lives, streamline processes, and deliver with purpose.
+        Open to 'full-time or contract' roles as a UX Designer, Product Designer, or UX Strategist — hybrid in Toronto or fully remote. I bring both hands-on design skills and strategic leadership to projects that aim to improve lives, streamline processes, and deliver with purpose.
       </p>
       <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
         Whether you’re building something new, modernizing the old, or need to solve for people-first outcomes—I’d love to hear from you. Let’s design something meaningful.
